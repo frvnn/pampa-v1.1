@@ -55,7 +55,7 @@ body {
 	font-weight:400;
 	font-size: 15px;
 	line-height:23px;
-	color:#636363;
+	color:#DCDCDC;
 	overflow-x:hidden;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
@@ -68,7 +68,7 @@ body {
 /* #Typography
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
-	color: #414141;
+	color: #fff;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:700;
 	text-align:center;

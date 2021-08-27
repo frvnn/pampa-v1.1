@@ -2659,22 +2659,22 @@ figure.vimeo a img, figure.youtube a img {
 .sidebar-search input:-ms-input-placeholder  {
 	font-size: 11px;
 	letter-spacing:1px;
-	color:#414141;
+	color:#fff;
 }
 .sidebar-search input::-moz-placeholder  {
 	font-size: 11px;
 	letter-spacing:1px;
-	color:#414141;
+	color:#fff;
 }
 .sidebar-search input:-moz-placeholder  {
 	font-size: 11px;
 	letter-spacing:1px;
-	color:#414141;
+	color:#fff;
 }
 .sidebar-search input::-webkit-input-placeholder  {
 	font-size: 11px;
 	letter-spacing:1px;
-	color:#414141;
+	color:#fff;
 }
 .sidebar-search button{
 	position:absolute;
@@ -2902,7 +2902,7 @@ figure.vimeo a img, figure.youtube a img {
 	text-transform:uppercase;
 	letter-spacing:1px;
 	display: none;
-	color:#636363;
+	color:#DCDCDC;
 }
 #ajaxsuccess {
 	background: #f2f2f2;
@@ -3132,25 +3132,25 @@ figure.vimeo a img, figure.youtube a img {
 .subscribe input:-ms-input-placeholder  {
 	font-size: 14px;
 	letter-spacing:1px;
-	color:#414141;
+	color:#fff;
 	opacity:.5;
 }
 .subscribe input::-moz-placeholder  {
 	font-size: 14px;
 	letter-spacing:1px;
-	color:#414141;
+	color:#fff;
 	opacity:.5;
 }
 .subscribe input:-moz-placeholder  {
 	font-size: 14px;
 	letter-spacing:1px;
-	color:#414141;
+	color:#fff;
 	opacity:.5;
 }
 .subscribe input::-webkit-input-placeholder  {
 	font-size: 14px;
 	letter-spacing:1px;
-	color:#414141;
+	color:#fff;
 	opacity:.5;
 }
 .subscribe button{
