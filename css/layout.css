@@ -2139,8 +2139,9 @@ figure.vimeo a img, figure.youtube a img {
 
 .team-wrap{
 	position:relative;
-	width:100%;
+	width:50%;
 	display:block;
+	margin: 0 auto;
 }
 .team-wrap img{
 	width:100%;
