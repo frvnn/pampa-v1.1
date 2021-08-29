@@ -2147,6 +2147,7 @@ figure.vimeo a img, figure.youtube a img {
 	width:100%;
 	display:block;
 	margin-bottom:15px;
+	border-radius: 10px;
 }
 .team-wrap h6{
 	text-align:left;
