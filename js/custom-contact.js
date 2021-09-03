@@ -23,7 +23,7 @@
         mode:        'scale_text',
         text:        'pampa code',
         text_colour: '#FFFFFF',
-		background:  '#273043'
+		background:  'var(--main-bg-color)'
 	});
 
 	
