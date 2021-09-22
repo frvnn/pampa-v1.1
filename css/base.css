@@ -198,11 +198,14 @@ h6 { font-size: 15px; line-height: 22px;}
 -----------------------------------------------------------------*/
 
 .container-form {
-	width: 100%;
-	display: flex;
-	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
 }
 .container-form textarea {
+	resize: none;
+}
+
+form {
 	resize: none;
 }
 

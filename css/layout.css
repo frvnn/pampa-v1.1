@@ -2901,7 +2901,7 @@ figure.vimeo a img, figure.youtube a img {
 }
 #ajax-form textarea,
 #ajax-form input {	
-	border-bottom:1px solid rgba(100,100,100,.2);
+	border-bottom:1px solid rgba(209, 209, 209, 0.70);
 }
 .error {
 	font: 11px/22px 'Open Sans', sans-serif;
@@ -2930,11 +2930,11 @@ figure.vimeo a img, figure.youtube a img {
  }
 #ajax-form textarea:active,
 #ajax-form input:active {	
-	color: #101010;
+	color: #ebe9e9;
 }
 #ajax-form textarea:active,
 #ajax-form input:hover {	
-	color: #101010;
+	color: #ebe9e9;
 }
 #ajax-form textarea:focus,
 #ajax-form input:focus {	 
@@ -2944,52 +2944,52 @@ figure.vimeo a img, figure.youtube a img {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#999999;
+	color:#d8d7d7;
 }
 #ajax-form input::-moz-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#999999;
+	color:#d8d7d7;
 }
 #ajax-form input:-moz-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#999999;
+	color:#d8d7d7;
 }
 #ajax-form input::-webkit-input-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#999999;
+	color:#d8d7d7;
 }
 #ajax-form textarea:-ms-input-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#999999;
+	color:#d8d7d7;
 }
 #ajax-form textarea::-moz-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#999999;
+	color:#d8d7d7;
 }
 #ajax-form textarea:-moz-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#999999;
+	color:#d8d7d7;
 }
 #ajax-form textarea::-webkit-input-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#999999;
+	color:#d8d7d7;
 }
 #ajax-form button {
-	background:#323232;
+	background:#431866;
 	color:#fff;
 	font-size:13px;
 	padding: 13px 25px;
