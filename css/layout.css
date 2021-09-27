@@ -310,9 +310,11 @@ body.royal_preloader {
 	-o-transition :all 0.3s ease-out;
 	transition : all 0.3s ease-out;
 }
+/* #Color Header Responsive
+================================================== */
 
 .cbp-af-header.cbp-af-header-shrink {
-	background: rgba(0,0,0,.93);
+	background: rgba(0, 0, 0, 0.80);
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
 	-o-transition :all 0.3s ease-out;
@@ -838,6 +840,7 @@ Mobile style's
   display: inline-block;
   position: relative;
   text-align: left;
+  color: #eee4de;
 }
 .cd-words-wrapper b {
   display: inline-block;
@@ -2905,7 +2908,7 @@ figure.vimeo a img, figure.youtube a img {
 	text-transform:uppercase;
 	letter-spacing:1px;
 	display: none;
-	color:#DCDCDC;
+	color:#FFF;
 }
 #ajaxsuccess {
 	background: #f2f2f2;

@@ -1,3 +1,9 @@
+:root {
+	--main-bg-color: #ddbea9;
+	--second-color: #d1b19ebf;
+	--icon-color: #a5a58d;
+	--shadow:rgba(0, 0, 0, 0.25);
+}
 
 
 .portfolio-box-1 .mask,
@@ -37,10 +43,10 @@
 	color:var(--icon-color);
 }
 .menu ul li:hover a.shadow-hover{
-	text-shadow: -7px 6px 0 rgb(167 168 175 / 76%);
+	text-shadow: 5px 6px 0 rgb(167 168 175 / 76%);
 }
 .menu ul li a.curent-shadow{
-	text-shadow: -7px 6px 0 rgb(167 168 175 / 76%);
+	text-shadow: 5px 6px 0 rgb(167 168 175 / 76%);
 }
 .content__link,
 .home-text-freelance h2 span,
@@ -65,7 +71,7 @@
 .home-text-freelance .link,
 .tipper .tipper-content,
 .team-wrap h6 {
-	text-shadow: -5px 4px 0 rgb(167 168 175 / 36%);
+	text-shadow: 5px 4px 0 var(--shadow);
 }
 #filter li a:hover,
 #filter li .current,
