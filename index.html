@@ -394,33 +394,39 @@
 				<h5>contactanos</h5>
 			</div>
 			<div class="container-form">
-						<form class="row" name="ajax-form" id="ajax-form" action="mail-it.php" method="post">
+						<form class="row" name="ajax-form" id="ajax-form" action="include/form.php" method="post">
 							<div class="col-md-6 mb-4">
 								<label for="name"> 
 									<span class="error" id="err-name">please enter name</span>
 								</label>
-								<input name="name" id="name" type="text"   placeholder="Your Name: *"/>
+								<input name="name" id="ajax-form-name" type="text"   placeholder="Your Name: *"/>
 							</div>
-							<div class="col-md-6 mb-4">
+							<div class="col-md-6 mb-4 form-group">
 								<label for="email"> 
 									<span class="error" id="err-email">please enter e-mail</span>
 									<span class="error" id="err-emailvld">e-mail is not a valid format</span>
 								</label>
-								<input name="email" id="email" type="text"  placeholder="E-Mail: *"/>
+								<input name="email" id="ajax-form-email" type="text"  placeholder="E-Mail: *"/>
 							</div>
 							<div class="clear"></div>
-							<div class="col-md-6 mb-4">
+							<div class="col-md-6 mb-4 form-group">
 								<label for="message"></label>
-								<textarea name="message" id="message" placeholder="Tell Us Everything"></textarea>
+								<textarea name="message" id="ajax-form-message" placeholder="Tell Us Everything"></textarea>
 							</div>
 							<div class="clear"></div>
-							<div class="col-md-6 mb-4">
-								<div id="button-con"><button class="send_message button-effect button--moema button--text-thick button--text-upper button--size-s" id="send" data-lang="en">submit</button></div>					
+							<div class="col-md-6 mb-4 form-group">
+								<div id="button-con"><button class="button-effect button--moema button--text-thick button--text-upper button--size-s"
+									type="submit" 
+									id="ajax-form-submit" 
+									name="ajax-form-submit" 
+									value="submit"
+									onclick="gotowhatsapp()">Enviar</button></div>					
 							</div>
-							<div class="clear"></div>	
-							<div class="error text-align-left" id="err-form">There was a problem validating the form please check!</div>
-							<div class="error text-align-left" id="err-timedout">The connection to the server timed out!</div>
-							<div class="error" id="err-state"></div>
+							<div class="col-12 form-group d-none">
+								<input type="text" id="ajax-form-botcheck" name="ajax-form-botcheck" value="" class="sm-form-control" />
+							</div>
+
+							<input type="hidden" name="prefix" value="ajax-form">
 						</form>	
 										
 						<div class="clear"></div>
@@ -492,6 +498,26 @@
 	<!-- Custom JavaScript
 	================================================== -->	
 	<script type="text/javascript" src="js/custom-about.js"></script>
+	<!-- FORM WhatsApp -->
+	<script>
+        function gotowhatsapp() {
+            
+            var name = document.getElementById("ajax-form-name").value;
+            var email = document.getElementById("ajax-form-email").value;
+            var phone = document.getElementById("phone").value;
+            var subject = document.getElementById("subject").value;
+            var message = document.getElementById("ajax-form-message").value;
+        
+            var url = "https://api.whatsapp.com/send?phone=542364595749&text=" 
+            + "Nombre: " + name + "%0a"
+            + "Telefono: " + phone + "%0a"
+            + "Email: " + email  + "%0a"
+            + "Asunto: " + subject  + "%0a"
+            + "Mensaje: " + message; 
+        
+            window.open(url, '_blank').focus();
+        }
+        </script>
 	
 <!-- End Document
 ================================================== -->
