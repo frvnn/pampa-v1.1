@@ -504,15 +504,11 @@
             
             var name = document.getElementById("ajax-form-name").value;
             var email = document.getElementById("ajax-form-email").value;
-            var phone = document.getElementById("phone").value;
-            var subject = document.getElementById("subject").value;
             var message = document.getElementById("ajax-form-message").value;
         
             var url = "https://api.whatsapp.com/send?phone=542364595749&text=" 
             + "Nombre: " + name + "%0a"
-            + "Telefono: " + phone + "%0a"
             + "Email: " + email  + "%0a"
-            + "Asunto: " + subject  + "%0a"
             + "Mensaje: " + message; 
         
             window.open(url, '_blank').focus();
