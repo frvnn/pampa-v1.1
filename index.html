@@ -395,23 +395,23 @@
 			</div>
 			<div class="container-form">
 						<form class="row" name="ajax-form" id="ajax-form" action="include/form.php" method="post">
-							<div class="col-md-6 mb-4">
+							<div class="col-md-6 mb-4 form-group">
 								<label for="name"> 
-									<span class="error" id="err-name">please enter name</span>
+									<span class="error" id="err-name">Por favor ingresá tu nombre</span>
 								</label>
-								<input name="name" id="ajax-form-name" type="text"   placeholder="Your Name: *"/>
+								<input name="name" id="ajax-form-name" type="text"   placeholder="Nombre: *"/>
 							</div>
 							<div class="col-md-6 mb-4 form-group">
 								<label for="email"> 
-									<span class="error" id="err-email">please enter e-mail</span>
-									<span class="error" id="err-emailvld">e-mail is not a valid format</span>
+									<span class="error" id="err-email">Por favor ingresá tu e-mail</span>
+									<span class="error" id="err-emailvld">Formato de e-mail inválido</span>
 								</label>
 								<input name="email" id="ajax-form-email" type="text"  placeholder="E-Mail: *"/>
 							</div>
 							<div class="clear"></div>
 							<div class="col-md-6 mb-4 form-group">
 								<label for="message"></label>
-								<textarea name="message" id="ajax-form-message" placeholder="Tell Us Everything"></textarea>
+								<textarea name="message" id="ajax-form-message" placeholder="Dejános tu mensaje"></textarea>
 							</div>
 							<div class="clear"></div>
 							<div class="col-md-6 mb-4 form-group">
@@ -422,15 +422,11 @@
 									value="submit"
 									onclick="gotowhatsapp()">Enviar</button></div>					
 							</div>
-							<div class="col-12 form-group d-none">
-								<input type="text" id="ajax-form-botcheck" name="ajax-form-botcheck" value="" class="sm-form-control" />
-							</div>
-
 							<input type="hidden" name="prefix" value="ajax-form">
 						</form>	
 										
 						<div class="clear"></div>
-						<div id="ajaxsuccess">Successfully sent!!</div>
+						<div id="ajaxsuccess">Enviado exitosamente!</div>
 						<div class="clear"></div>
 			</div>
 		</div>
@@ -504,15 +500,11 @@
             
             var name = document.getElementById("ajax-form-name").value;
             var email = document.getElementById("ajax-form-email").value;
-            var phone = document.getElementById("phone").value;
-            var subject = document.getElementById("subject").value;
             var message = document.getElementById("ajax-form-message").value;
         
             var url = "https://api.whatsapp.com/send?phone=542364595749&text=" 
             + "Nombre: " + name + "%0a"
-            + "Telefono: " + phone + "%0a"
             + "Email: " + email  + "%0a"
-            + "Asunto: " + subject  + "%0a"
             + "Mensaje: " + message; 
         
             window.open(url, '_blank').focus();
