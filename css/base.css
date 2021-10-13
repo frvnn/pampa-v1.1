@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext');
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 /*
 * Skeleton V1.2
 * Copyright 2011, Dave Gamache
@@ -68,7 +70,7 @@ Llamar asi -> var(--main-bg-color)
 ================================================== */
 body {
 	background: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-weight:400;
 	font-size: 15px;
 	line-height:23px;
@@ -151,7 +153,7 @@ h6 { font-size: 15px; line-height: 22px;}
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"] {
-	background:#363636;	
+	background:#232323;	
 	margin-top:10px;
 	border:none;
 	  color: #dfdfdf;
@@ -171,8 +173,13 @@ h6 { font-size: 15px; line-height: 22px;}
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
 	input[type="button"]:hover {	
+<<<<<<< HEAD
 	  color: var(--second-color);
 	background:#292929;	 }
+=======
+	  color: #fff;
+	background:#131313;	 }
+>>>>>>> master
 
 	.button:active,
 	button:active,
@@ -200,10 +207,174 @@ h6 { font-size: 15px; line-height: 22px;}
 /* #Images
 ================================================== */
 
+#contactus {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+/* ----------------------------------------------------------------
+	Forms
+-----------------------------------------------------------------*/
+
+.container-form {
+	width: 50%;
+	margin: 0 auto;
+}
+.container-form textarea {
+	resize: none;
+}
+
+form {
+	resize: none;
+}
 
 
+.sm-form-control {
+	display: block;
+	width: 100%;
+	height: 38px;
+	padding: 8px auto;
+	font-size: 18px;
+	line-height: 1.42857143;
+	color: rgb(242, 236, 236);
+	background-color: rgb(167 168 175 / 76%);
+	background-image: none;
+	border: 1px solid #35415b;
+	border-radius: 0 !important;
+	-webkit-transition: border-color ease-in-out 0.15s;
+	-o-transition: border-color ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 100;
+  }
+  
+  .sm-form-control:focus {
+	border-color:#fff;
+	outline: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+  }
+  
+  .sm-form-control::-moz-placeholder {
+	color: rgb(255, 255, 255);
+	opacity: 1;
+  }
+  
+  .sm-form-control:-ms-input-placeholder {
+	color: rgb(192, 3, 3);
+  }
+  .sm-form-control::-webkit-input-placeholder {
+	color: #232323;
+	font-style: italic;
+  }
+  
+  .sm-form-control[disabled],
+  .sm-form-control[readonly],
+  fieldset[disabled] .sm-form-control {
+	cursor: not-allowed;
+	background-color: transparent;
+	opacity: 1;
+  }
+  
+  .sm-form-control {
+	height: auto;
+  }
+  
+  .form-control {
+	border-radius: 3px;
+  }
+  
+  .form-control:active,
+  .form-control:focus {
+	border-color: #999;
+	box-shadow: none;
+  }
+  
+  label {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 700;
+	font-family: "Poppins", sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #555;
+	margin-bottom: 10px;
+	cursor: pointer;
+  }
+  
+  label.label-muted {
+	color: rgb(255, 255, 255);
+	font-weight: normal;
+	margin-right: 5px;
+  }
+  
+  /* ----------------------------------------------------------------
+	  Contact Form
+  -----------------------------------------------------------------*/
+  
+  .contact-form-overlay {
+	position: relative;
+	background-color:#fff;
+	z-index: 10;
+	border-radius: 4px;
+	box-shadow: 0 1px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  label.error {
+	margin-top: 5px;
+	color: #e42c3e;
+	font-weight: 400;
+  }
+  
+  label.error {
+	display: none !important;
+  }
+  
+  .show-error-msg + label.error {
+	display: block !important;
+  }
+  
+  input[type="checkbox"]:not(:checked) + label.error {
+	display: block !important;
+  }
+  
+  .form-control.error,
+  .sm-form-control.error {
+	border-color: #e42c3e;
+  }
+  
 
-
+  .form-process {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+  }
+  
+  .preloader2 {
+	background-color: #fff;
+  }
+  
+  .form-process {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	background-color: #fff;
+  }
+  
+  .form-process::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #fff;
+	opacity: 0.7;
+	z-index: -1;
+  }
+  
 
 /* #Misc
 ================================================== */
