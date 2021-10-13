@@ -173,13 +173,8 @@ h6 { font-size: 15px; line-height: 22px;}
 	input[type="submit"]:hover,
 	input[type="reset"]:hover,
 	input[type="button"]:hover {	
-<<<<<<< HEAD
 	  color: var(--second-color);
 	background:#292929;	 }
-=======
-	  color: #fff;
-	background:#131313;	 }
->>>>>>> master
 
 	.button:active,
 	button:active,

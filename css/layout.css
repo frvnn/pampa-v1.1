@@ -842,11 +842,7 @@ Mobile style's
   display: inline-block;
   position: relative;
   text-align: left;
-<<<<<<< HEAD
   color: #eee4de;
-=======
-  font-weight: 300;
->>>>>>> master
 }
 .cd-words-wrapper b {
   display: inline-block;
@@ -2885,7 +2881,7 @@ figure.vimeo a img, figure.youtube a img {
 	padding-bottom: 15px;
 	background:transparent;
 	border:none;
-	color: #737373;
+	color: #2c2c2c;
 	-webkit-transition: border-bottom 0.3s, color 0.3s;
 	transition: border-bottom 0.3s, color 0.3s;
 }
@@ -2901,13 +2897,13 @@ figure.vimeo a img, figure.youtube a img {
 	background:transparent;
 	height:100px;
 	border:none;
-	color: #737373;
+	color: #2c2c2c;
 	-webkit-transition: border-bottom 0.3s, color 0.3s;
 	transition: border-bottom 0.3s, color 0.3s;
 }
 #ajax-form textarea,
 #ajax-form input {	
-	border-bottom:1px solid rgba(209, 209, 209, 0.70);
+	border-bottom:1px solid rgba(95, 95, 95, 0.7);
 }
 .error {
 	font: 11px/22px 'Open Sans', sans-serif;
@@ -2950,49 +2946,49 @@ figure.vimeo a img, figure.youtube a img {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#d8d7d7;
+	color:#fff;
 }
 #ajax-form input::-moz-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#d8d7d7;
+	color:#fff;
 }
 #ajax-form input:-moz-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#d8d7d7;
+	color:#fff;
 }
 #ajax-form input::-webkit-input-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#d8d7d7;
+	color:#fff;
 }
 #ajax-form textarea:-ms-input-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#d8d7d7;
+	color:#fff;
 }
 #ajax-form textarea::-moz-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#d8d7d7;
+	color:#fff;
 }
 #ajax-form textarea:-moz-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#d8d7d7;
+	color:#fff;
 }
 #ajax-form textarea::-webkit-input-placeholder  {
 	font-size: 11px;
 	text-transform:uppercase;
 	letter-spacing:2px;
-	color:#d8d7d7;
+	color:#fff;
 }
 #ajax-form button {
 	background:#333;
