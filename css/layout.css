@@ -324,7 +324,7 @@ body.royal_preloader {
 	width:86px;
 	height:16px;
 	top:32px;
-	background:url('../images/logo-light.png') no-repeat center center;
+	background:url('../images/logo-light_new.png') no-repeat center center;
 	background-size:86px 16px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
@@ -373,7 +373,7 @@ body.royal_preloader {
 	height:25px;
 	z-index:10000;
 	top:50px;
-	background:url('../images/logo-light.png') no-repeat center center;
+	background:url('../images/logo-light_new.png') no-repeat center center;
 	background-size:134px 25px;
 	-webkit-transition : all 0.3s ease-out;
 	-moz-transition : all 0.3s ease-out;
@@ -620,7 +620,7 @@ Mobile style's
 		height:18px;
 		z-index:10000;
 		top:30px;
-		background:url('../images/logo-light.png') no-repeat center center;
+		background:url('../images/logo-light_new.png') no-repeat center center;
 		background-size:100px 18px;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
@@ -633,7 +633,7 @@ Mobile style's
 		height:18px;
 		z-index:10000;
 		top:30px;
-		background:url('../images/logo-light.png') no-repeat center center;
+		background:url('../images/logo-light_new.png') no-repeat center center;
 		background-size:100px 18px;
 		-webkit-transition : all 0.3s ease-out;
 		-moz-transition : all 0.3s ease-out;
